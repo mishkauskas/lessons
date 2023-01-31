@@ -1,0 +1,41 @@
+/* ----------------- */
+/* --RESET STYLES--- */
+/* ----------------- */
+@import url("reset.css");
+
+/* My own styles */
+h1 {
+  color: #01a7f9;
+}
+
+h2 {
+  color: #e61978;
+}
+
+h3 {
+  color: rgb(31, 117, 0);
+}
+
+div[class*='__section'] {
+  color: blue;
+}
+
+.text * {
+  color: black;
+}
+
+.section-first .section-text {
+  color: red;
+}
+
+.section-second p {
+  color: lightsalmon;
+}
+
+.section-second p ~ p {
+  color: olivedrab;
+}
+
+.short-info__section a {
+  color: greenyellow;
+}
