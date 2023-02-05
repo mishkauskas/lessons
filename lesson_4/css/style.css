@@ -1,0 +1,79 @@
+/* ----------------- */
+/* --RESET STYLES--- */
+/* ----------------- */
+@import url("reset.css");
+@import url("fonts.css");
+
+/* My own styles */
+body {
+	font-family: "Battambang", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #2d2d2d;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: "Nanum Gothic";
+  font-weight: 800;
+  color: #451c79;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Dosis';
+  font-weight: 800;
+  color: #e61978;
+}
+
+a {
+  font-family: 'Dosis';
+  font-weight: 500;
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+a.menu-item__link {
+  font-family: "Nanum Gothic"; 
+  color: #343434;
+  font-weight: 700;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px #555;
+  letter-spacing: 15px;
+  line-height: 1.4;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 1.33;
+  text-indent: 20px;
+}
+
+.main-text-wrp > p {
+  color: green;
+}
+
+.text-sub ~ p {
+  color: rgb(208, 0, 255);
+}
+
+.short-info__section {
+  word-spacing: 10px;
+}
+
+.main-info__section .text p + p{
+  white-space: nowrap;
+}
+
+.copyright {
+  font-family: "Battambang";
+  font-weight: 700;
+  font-style: italic;
+}
+
+span {
+  font-style: italic;
+  color: #ff0000;
+}
