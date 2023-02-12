@@ -1,0 +1,139 @@
+/* ----------------- */
+/* --RESET STYLES--- */
+/* ----------------- */
+@import url("reset.css");
+@import url("fonts.css");
+
+/* My own styles */
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+  line-height: 1.78;
+	font-weight: 300;
+	color: #6C757D;
+}
+
+[class*='__container'] {
+  max-width: 1270px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section-text {
+  max-width: 846px;
+  margin: 0 auto;
+}
+
+.body-wrp {
+  padding-bottom: 100px;
+}
+
+div[class*='section'] {
+  margin-bottom: 80px;
+}
+
+div[class*='clothes-info'] {
+  margin-bottom: 100px;
+}
+
+.section-lesson.lesson {
+  margin-bottom: 0;
+}
+
+header .section-text {
+  padding: 40px 0;
+  margin-bottom: 0;
+}
+
+h1, h2 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.6;
+  color: #212529;
+}
+
+h1 {
+  max-width: 50%;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+h2.block-title {
+  max-width: 605px;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+.banner-img img {
+  width: 100%;
+}
+
+.clothes-img .section-text {
+  margin-bottom: 100px;
+}
+
+.multiple-img .image-wrp {
+  font-size: 0;
+}
+
+.multiple-img img {
+  max-width: 605px;
+}
+
+.multiple-img .img-first {
+  margin-right: 30px;
+}
+
+.multiple-img ~ .clothes-info {
+  margin-bottom: 0;
+}
+
+.last-element p {
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: rgba(255, 127, 80, 0.5);
+}
+
+footer .footer-link-wrp {
+  padding: 20px 0;
+}
+
+.lesson-work {
+  margin-right: 15px;
+  padding: 10px 15px;
+  display: inline-block;
+  background: gray;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.lesson-work--1 {
+  border: 5px solid cyan;
+  border-radius: 15px;
+}
+
+.lesson-work--2 {
+  border: 5px dashed red;
+  box-shadow: 10px 10px 20px 0 plum;
+}
+
+.lesson-work--3 {
+  border: 5px dotted darkblue;
+  opacity: .45;
+}
+
+.lesson-work--4 {
+  outline: 5px solid blueviolet;
+  box-shadow: inset 10px 10px 15px 5px greenyellow;
+}
